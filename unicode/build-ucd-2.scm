@@ -4,7 +4,7 @@
 
 #|
 
-    produce followings from unicode data 5.0.0:
+    produce followings from unicode data 12.1.0:
 
     "canonical-class.datum"
     "decompose.datum"
@@ -32,7 +32,7 @@
 
   (define ucd-file
     (lambda (filename)
-      (string-append (current-directory) "/unicode-5.0.0/" filename)))
+      (string-append (current-directory) "/unicode-12.1.0/" filename)))
 
   (define datum-file
     (lambda (filename)
