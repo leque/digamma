@@ -15,6 +15,8 @@
 
 (assert (string-contains (current-directory) (home-directory)))
 
+(define put-fasl (parameterize ((current-environment (system-environment))) (top-level-value 'put-fasl)))
+
 (define convert
   (lambda (name)
     (let ((source-file-name (format "ucd/~a.datum" name))
