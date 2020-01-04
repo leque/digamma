@@ -1,4 +1,4 @@
-PROG 	= ../ypsilon
+PROG 	= ../digamma --r6rs --sitelib=../sitelib
 
 all :
 	@$(PROG) build-ucd-1.scm
